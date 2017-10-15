@@ -1,25 +1,32 @@
-# ReduxSimpleStarter
+# Clima App
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Aplicativo web que exibe a previsão do tempo.
 
-### Getting Started
+Desenvolvido com:
+* [React](https://reactjs.org)
+* [Redux](http://redux.js.org)
+* [Twitter Bootstrap 4](https://getbootstrap.com)
+* [API - Open Weather Map](https://openweathermap.org/api)
 
-There are two methods for getting started with this repo.
+O aplicativo busca a previsão do tempo na API - Open Weather Map para uma determinada cidade, exibe informações como ( temperatura, pressão atmosférica e umidade ) da cidade escolhida pelo período de 5 dias, inclusive com gráficos para o auxilio visual.
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+## Requerimentos básicos
 
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
+* [Node.js](https://nodejs.org/en/download) instalado
+* [GIT](http://rogerdudler.github.io/git-guide/index.html) instalado
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+* [NPM](https://docs.npmjs.com/getting-started/what-is-npm) instalado
 
-```
-> npm install
-> npm start
-```
+## Como Instalar
+
+* Crie uma pasta onde desejar em seu computador.
+
+* Abra o console e digite git clone ( nome do repositório aqui ).
+
+* Após clonar o repositório para sua máquina, ainda na linha de comando, digite **npm i** para instalar as dependências do projeto.
+
+* E para finalizar digite **npm run start** e o aplicativo irá abrir automaticamente no browser que estiver determinado como principal em sua maquina.
+
+## Restriçoes da API utilizada no aplicativo
+
+ A API utilizada no projeto [Open Weather Map](https://openweathermap.org/api) é gratuita, porém possui [restrições]() quanto a quantidade de requisições.
